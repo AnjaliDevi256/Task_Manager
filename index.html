@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="external.css">
+</head>
+<body>
+    <center>
+        <div id="auth-container">
+            <h2>Welcome</h2>
+            <input type="text" id="user" placeholder="Username"><br>
+            <input type="password" id="pass" placeholder="Password"><br><br>
+            <button class="btn-secondary" onclick="signup()">Sign Up</button>
+            <button class="btn-primary" onclick="login()">Login</button>
+        </div>
+
+        <div id="todo-container" style="display:none;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSd2d07dGdv7jLfGU8cLYwPXJ2OIoGWV7YBtQ&s"/><br><br>
+            <h3 id="welcome-msg"></h3>
+            
+            <input type="text" id="t" placeholder="Enter Task">
+            <button onclick="add()">Add task</button><br><br>
+            
+            <button onclick="del()">Delete task</button>
+            <button onclick="display()">Refresh List</button><br><br>
+            
+            <input type="number" id="t2" placeholder="Enter Task Number (1, 2...)" min="1""><br><br>
+            <button onclick="update()">Update task</button><br><br>
+            
+            <p id="r">Tasks Are: </p>
+            <button onclick="logout()" style="background: red; color: white;">Logout</button>
+        </div>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

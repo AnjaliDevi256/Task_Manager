@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("https://i.pinimg.com/736x/81/ce/03/81ce03900bcbbe0243ca0614560478a5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#auth-container, #todo-container {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 50px auto;
+    padding: 30px;
+    width: 400px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px); /* Glass effect */
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+input {
+    width: 80%;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    padding: 12px;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #ff6b6b;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn-primary {
+    flex: 2;            /* Makes the Login button slightly wider than Signup */
+    background: #cb11c5;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+.btn-secondary {
+    flex: 1;            /* Smaller, secondary action */
+    background: #cb11c5;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+button:hover {
+    transform: translateY(-2px); /* Lift effect when hovering */
+    transition: 0.3s;
+}
+
+/*button:hover {
+    background-color: #ee5253;
+    transform: scale(1.05);
+}*/
