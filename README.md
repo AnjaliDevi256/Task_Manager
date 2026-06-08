@@ -36,3 +36,12 @@ A full-stack Task Manager application developed using HTML, CSS, JavaScript, Nod
 - Node.js
 - Express.js
 - MongoDB
+## Screenshots
+
+### Login Page
+
+![Login Page](screenshots/login-page.png)
+
+### Task Dashboard
+
+![Task Dashboard](screenshots/dashboard.png)
