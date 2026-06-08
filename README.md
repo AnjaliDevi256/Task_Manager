@@ -1,8 +1,8 @@
-Task Manager
+# Task Manager
 
 A full-stack Task Manager application developed using HTML, CSS, JavaScript, Node.js, Express.js, and MongoDB.
 
-Features
+## Features
 
 - User Registration (Sign Up)
 - User Authentication (Login)
@@ -14,7 +14,7 @@ Features
 - User-Specific Task Storage
 - Dynamic Task Updates
 
-How It Works
+## How It Works
 
 1. New users can create an account by entering a username and password and clicking the Sign Up button.
 2. Existing users can log in using their credentials.
@@ -28,7 +28,7 @@ How It Works
    - Refresh Task Button
 5. Users can view their tasks below the input section, and the task list updates automatically based on user actions.
 
-Technologies Used
+## Technologies Used
 
 - HTML
 - CSS
